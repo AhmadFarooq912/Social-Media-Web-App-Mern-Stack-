@@ -1,0 +1,75 @@
+# 1. Version control
+.git/
+.gitignore
+.svn/
+.hg/
+
+# 2. Node.js dependencies and logs
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# 3. Build outputs
+build/
+dist/
+out/
+
+# 4. Test and debug artifacts
+test/
+tests/
+*.log
+debug/
+
+# 5. IDE/editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 6. Environment and secrets
+.env
+.env.*
+*.env
+*.pem
+*.key
+*.crt
+
+# 7. Temporary and local files
+tmp/
+temp/
+*.tmp
+.local/
+local/
+
+# 8. Documentation and markdown
+docs/
+*.md
+README*
+
+# 9. Docker and Compose files
+Dockerfile*
+docker-compose*
+compose.yaml
+
+# 10. Miscellaneous
+*.bak
+*.old
+*.orig
+
+# 11. Project-specific: skip public/images in Server (if not needed)
+# Uncomment if images are not needed in build
+# Server/public/images/
+
+# 12. Ignore coverage and cache (for completeness)
+coverage/
+.coverage
+.pytest_cache/
+__pycache__/
+*.pyc
+*.pyo
+
+# 13. Ignore client build output (if present)
+client/build/
+
+# End of .dockerignore
